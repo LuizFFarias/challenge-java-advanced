@@ -1,4 +1,7 @@
 package br.com.fiap.savvyfix.repository;
 
-public interface ClienteRepository {
+import br.com.fiap.savvyfix.entity.Cliente;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ClienteRepository extends JpaRepository<Cliente, Long> {
 }

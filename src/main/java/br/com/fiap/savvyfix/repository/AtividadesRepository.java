@@ -1,4 +1,7 @@
 package br.com.fiap.savvyfix.repository;
 
-public interface AtividadesRepository {
+import br.com.fiap.savvyfix.entity.Atividades;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface AtividadesRepository extends JpaRepository<Atividades, Long> {
 }
