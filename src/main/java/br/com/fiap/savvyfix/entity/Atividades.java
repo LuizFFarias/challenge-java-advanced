@@ -23,7 +23,7 @@ public class Atividades {
 
         private LocalTime horarioAtual;
 
-        private LocalDate localizacaoAtual;
+        private String localizacaoAtual;
 
         private String  climaAtual;
 
